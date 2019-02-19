@@ -1,1 +1,1 @@
-# appdoo-SimpleWebBrowser
+# appdoo - SimpleWebBrowser
