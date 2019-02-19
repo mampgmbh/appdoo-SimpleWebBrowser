@@ -1,0 +1,476 @@
+{
+  "$type" : "Project",
+  "tabBarController" : {
+    "$id" : "TabBarController",
+    "tabBar" : {
+      "$type" : "UITabBar",
+      "position" : {
+        "top" : 519,
+        "left" : 0
+      },
+      "hidden" : false,
+      "frame" : {
+        "origin" : {
+          "x" : 0,
+          "y" : 519
+        },
+        "size" : {
+          "width" : 320,
+          "height" : 49
+        }
+      },
+      "$id" : "UITabBar6007",
+      "barStyle" : 0,
+      "heightIsEditable" : false,
+      "$domain" : "appdoo.iOS",
+      "userInteractionEnabled" : true,
+      "autoresizingMask" : 2,
+      "size" : {
+        "width" : 320,
+        "height" : 49
+      }
+    },
+    "$type" : "UITabBarController",
+    "$domain" : "appdoo.iOS"
+  },
+  "scenes" : [
+    {
+      "$id" : "Screen1",
+      "positionOnOverview" : {
+        "top" : 118,
+        "left" : 32
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "supportedInterfaceOrientations" : 2,
+      "showsTabBar" : false,
+      "$domain" : "appdoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "hasCustomInterfaceOrientations" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "viewController" : {
+        "$id" : "UIViewController1",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem9436",
+          "title" : "Simple web browser",
+          "$type" : "UITabBarItem",
+          "$domain" : "appdoo.iOS"
+        },
+        "title" : "Simple web browser",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "UIView6636",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(234,234,234,1.00)",
+          "$domain" : "appdoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "CSSTextColor" : "rgb(0,123,255)",
+              "position" : {
+                "top" : 466,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 466
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 22
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButtonb4dd79eeb9ce4c3db9203ef565dd399e",
+              "$domain" : "appdoo.iOS",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "objectAction",
+                "modalTransitionStyle" : "-1",
+                "$domain" : "appdoo",
+                "objectActionID" : "reload",
+                "type" : "objectAction",
+                "objectID" : "UIWebViewcded9e94586d4c2e863c9b883ed1275f"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UIWebViewcded9e94586d4c2e863c9b883ed1275f",
+                  "offset" : 20,
+                  "type" : "below",
+                  "$id" : "Object15427057fc284ae0b8f148a9b1c25281"
+                }
+              ],
+              "name" : "reload",
+              "size" : {
+                "width" : 290,
+                "height" : 22
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 42,
+              "fontSize" : 17,
+              "text" : "reload"
+            },
+            {
+              "CSSTextColor" : "rgb(0,123,255)",
+              "position" : {
+                "top" : 466,
+                "left" : 229
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 229,
+                  "y" : 466
+                },
+                "size" : {
+                  "width" : 76,
+                  "height" : 22
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButtonb811b055acdb4a5ba19d1b424734a81e",
+              "bindings" : [
+                {
+                  "destination" : "UIWebViewcded9e94586d4c2e863c9b883ed1275fDataProvider",
+                  "destinationIsMutable" : true,
+                  "destinationKeyPath" : "contents.canGoForward",
+                  "sourceKeyPath" : "enabled",
+                  "enumerableItemAccess" : false
+                }
+              ],
+              "$domain" : "appdoo.iOS",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "objectAction",
+                "modalTransitionStyle" : "-1",
+                "$domain" : "appdoo",
+                "objectActionID" : "goForward",
+                "type" : "objectAction",
+                "objectID" : "UIWebViewcded9e94586d4c2e863c9b883ed1275f"
+              },
+              "textAlignment" : "right",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UIWebViewcded9e94586d4c2e863c9b883ed1275f",
+                  "offset" : 20,
+                  "type" : "below",
+                  "$id" : "Object2b578121249a483fb1f1964b458b0cf8"
+                }
+              ],
+              "userInteractionEnabled" : true,
+              "name" : "forward",
+              "size" : {
+                "width" : 76,
+                "height" : 22
+              },
+              "alpha" : 1,
+              "enabled" : false,
+              "fontFamily" : "System",
+              "autoresizingMask" : 41,
+              "fontSize" : 17,
+              "text" : "forward"
+            },
+            {
+              "CSSTextColor" : "rgb(0,123,255)",
+              "position" : {
+                "top" : 466,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 466
+                },
+                "size" : {
+                  "width" : 69,
+                  "height" : 22
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButton7ffecf7607f84d1a806a40427747981f",
+              "bindings" : [
+                {
+                  "valueTransformerIsBooleanInverter" : false,
+                  "destination" : "UIWebViewcded9e94586d4c2e863c9b883ed1275fDataProvider",
+                  "destinationIsMutable" : true,
+                  "destinationKeyPath" : "contents.canGoBack",
+                  "sourceKeyPath" : "enabled",
+                  "enumerableItemAccess" : false
+                }
+              ],
+              "$domain" : "appdoo.iOS",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "objectAction",
+                "modalTransitionStyle" : "-1",
+                "$domain" : "appdoo",
+                "objectActionID" : "goBack",
+                "type" : "objectAction",
+                "objectID" : "UIWebViewcded9e94586d4c2e863c9b883ed1275f"
+              },
+              "textAlignment" : "left",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UIWebViewcded9e94586d4c2e863c9b883ed1275f",
+                  "offset" : 20,
+                  "type" : "below",
+                  "$id" : "Objecteee25095136b41a09846663f0f588055"
+                }
+              ],
+              "userInteractionEnabled" : true,
+              "name" : "back",
+              "size" : {
+                "width" : 69,
+                "height" : 22
+              },
+              "alpha" : 1,
+              "enabled" : false,
+              "fontFamily" : "System",
+              "autoresizingMask" : 44,
+              "fontSize" : 17,
+              "text" : "back"
+            },
+            {
+              "$id" : "UIWebViewcded9e94586d4c2e863c9b883ed1275f",
+              "dataProvider" : {
+                "$type" : "WebViewDataProvider",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "UIWebViewcded9e94586d4c2e863c9b883ed1275fDataProvider",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appdoo"
+                },
+                "propertiesForBindings" : [
+                  "canGoForward",
+                  "canGoBack"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "name" : "Web View",
+                "objectID" : "UIWebViewcded9e94586d4c2e863c9b883ed1275f"
+              },
+              "showActivityIndicator" : false,
+              "backgroundColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 18,
+              "URLString" : "https:\/\/www.google.com",
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 446
+                }
+              },
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 446
+              },
+              "heightIsEditable" : true,
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "alpha" : 1,
+              "hidden" : false,
+              "userInteractionEnabled" : true,
+              "$type" : "UIWebView"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "name" : "Ansicht",
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appdoo.iOS"
+      },
+      "v_showsInTabBar" : false,
+      "navigationBar" : {
+        "$id" : "UINavigationBar9dfb6ae16b704391aea4c896aa6be313",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appdoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "Simple web browser",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$type" : "UINavigationItem",
+            "$domain" : "appdoo.iOS",
+            "$id" : "UINavigationItem2f8921be5ea247b0a4988dbdd010053a"
+          }
+        ],
+        "barTintColor" : "rgba(234,234,234,1.00)",
+        "barStyle" : 0,
+        "hidden" : false,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "$type" : "Scene"
+    }
+  ],
+  "tabBarItemFont" : {
+    "$id" : "UIFont10031",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_",
+    "pointSize" : 10,
+    "$type" : "UIFont",
+    "$domain" : "appdoo.iOS"
+  },
+  "navigationBarFont" : {
+    "$id" : "UIFont10029",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_BOLD_",
+    "pointSize" : 17,
+    "$type" : "UIFont",
+    "$domain" : "appdoo.iOS"
+  },
+  "$domain" : "appdoo",
+  "metadata" : {
+    "launchImages" : {
+      "phone40" : {
+        "$type" : "ImageReference",
+        "$domain" : "appdoo",
+        "imageID" : "609C4D72-082A-4F8A-A66B-93347B92BA92-85367-000062D738CC5380.png"
+      },
+      "portrait" : {
+        "$type" : "ImageReference",
+        "$domain" : "appdoo",
+        "imageID" : "609C4D72-082A-4F8A-A66B-93347B92BA92-85367-000062D738CC5382.png"
+      },
+      "landscape" : {
+        "$type" : "ImageReference",
+        "$domain" : "appdoo",
+        "imageID" : "609C4D72-082A-4F8A-A66B-93347B92BA92-85367-000062D738CC5383.png"
+      }
+    },
+    "iconImage" : {
+      "$type" : "ImageReference",
+      "$domain" : "appdoo",
+      "imageID" : "609C4D72-082A-4F8A-A66B-93347B92BA92-85367-000062D738CC5381.png"
+    },
+    "editorAppearance" : {
+      "fileReferencesNodeIsExpandedInEditorOutline" : true,
+      "inspectorCurrentSegment" : 0,
+      "collapsedNewItemSections" : [
+
+      ],
+      "contentScale" : 1,
+      "historyStack" : [
+        "Screen1",
+        "Screen2",
+        "Screen3",
+        "Screen1"
+      ],
+      "inspectorCollapsedGroups" : [
+        "UILabelShadow",
+        "UIScrollViewInsets",
+        "UITableViewMargin",
+        "UITableViewSeparatorInsets",
+        "FormProcessorEvents",
+        "FormProcessorAdvanced"
+      ],
+      "heightOfNewItemsList" : 373,
+      "inspectorIsVisible" : true,
+      "elementListIsVisible" : true,
+      "globalObjectsNodeIsExpandedInEditorOutline" : true,
+      "historyStackPosition" : 3
+    },
+    "hidesStatusBarOnLaunch" : 0,
+    "editorVersion" : 363,
+    "title" : "SimpleWebBrowser",
+    "formatVersion" : 363,
+    "lastObjectID" : 10041,
+    "simulatedSystemVersion" : 7,
+    "supportedInterfaceOrientations" : 6,
+    "description" : "Tabbed App (iOS Universal)",
+    "deviceProfile" : "iPhone-Widescreen",
+    "appleAppBundlePrefix" : "",
+    "version" : "1.0",
+    "defaultLanguage" : "en",
+    "targetedDeviceFamily" : "iOS-Universal",
+    "appleAppCategory" : "",
+    "editedObject" : "Screen1",
+    "projectID" : "00C479AC-696A-4C29-98E0-020C74D2C29A-7253-000008CCD780CE92",
+    "companyName" : "MAMPGmbH",
+    "windowFrame" : "285 91 960 640 0 0 1440 878 ",
+    "windowIsFullScreen" : false,
+    "rootInstance" : "TabBarController",
+    "overviewAppearance" : {
+      "contentScale" : 0.33000000000000002
+    }
+  }
+}
